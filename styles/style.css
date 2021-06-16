@@ -9,8 +9,8 @@ html {
 
 ::-webkit-scrollbar {
   background: black;
-  width: 0.6rem;
-  height: 0.6rem;
+  width: 0.4rem;
+  height: 0.4rem;
 }
 
 ::-webkit-scrollbar-corner {
@@ -76,7 +76,6 @@ nav ul {
   list-style-type: none;
   padding: 0;
   user-select: none;
-  width: 100%;
 }
 
 a {
@@ -137,12 +136,12 @@ footer {
   }
 
   .about {
-    margin: 2em;
+    margin: 1em 2em;
     text-align: center;
   }
 }
 
-@media screen and (max-width: 373px) {
+@media screen and (max-width: 600px) {
   nav {
     padding: 10px 0 10px 0;
   }
