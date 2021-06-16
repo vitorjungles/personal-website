@@ -11,13 +11,20 @@
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <a href="https://vitorjungles.github.io/" class="logo">Vítor Jungles</a>
+  <header class="translate3d">
+    <a href="index.html" class="logo">Vítor Jungles</a>
     <nav>
       <ul>
         <li>
+          <a href="#articles">Articles</a>
+        </li>
+        <li>
           <a href="#projects">Projects</a>
-          <a href="">Contact</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+        <li>
           <a href="#description">About</a>
         </li>
       </ul>
@@ -26,7 +33,7 @@
   <main>
     <section id="description">
       <div class="description container">
-        <img src="data:image/jpeg;base64,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" alt="Vítor Jungles">
+        <img src="media/images/vitor.png" alt="Vítor Jungles">
         <div class="about">
           <p>I'm 14 years old, I started programming in Python and I'm currently studying HTML, CSS and JS. I'm a creative and curious person who never stops learning.</p>
         </div>
@@ -35,17 +42,35 @@
     <section id="projects">
       <div class="projects container">
         <h1>Projects</h1>
-        <div>
-          <p>Here are all my built projects.</p>
-        </div>
+        <p>Here are all my built projects.</p>
         <div class="content">
           
         </div>
       </div>
     </section>
+    <section id="articles">
+      <div class="articles container">
+        <h1>Articles</h1>
+        <p>My latest articles.</p>
+        <div class="latest-articles">
+          
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="contact container">
+        <h1>Contact</h1>
+        <p>Contact me.</p>
+        <div class="data">
+          <form>
+
+          </form>
+        </div>
+      </div>
+    </section>
   </main>
   <footer>
-    
+    <span id="copyright">&copy;</span> - Made by Vítor Jungles.
   </footer>
   <script src="js/index.js"></script>
 </body>
